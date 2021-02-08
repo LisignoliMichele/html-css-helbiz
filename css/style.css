@@ -267,6 +267,7 @@ footer{
 }
 footer li{
   list-style: none;
+  line-height: 30px;
 }
 .footer_top{
   padding: 80px 0;
@@ -275,7 +276,7 @@ footer li{
   min-height: 150px;
 }
 .footer_top img{
-  max-width: 200px;
+  max-width: 150px;
   margin-bottom: 40px;
 }
 .footer_top h5{
