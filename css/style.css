@@ -166,3 +166,16 @@ background-color: #04ff3f;
 height: 100px;
 background-color: #fcff05;
 }
+@media screen and (max-width: 992px){
+  h1{
+    font-size: 80px;
+  }
+  .banner{
+    padding: 100px 0;
+  }
+}
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 60px;
+  }
+}
