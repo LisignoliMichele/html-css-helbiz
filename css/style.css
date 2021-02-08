@@ -1,7 +1,77 @@
-.prova_nav-bar-col{
-  height:70px;
-  background-color: #ff00fa;
+/* mix */
+body{
+  font-family: 'Open Sans', sans-serif;
 }
+/* buttons */
+.btn:hover{
+  color: #fff;
+}
+.btn_primary{
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0px;
+  padding: 8px 20px;
+}
+.btn_mobile{
+  background: transparent;
+  padding: 5px;
+  font-size: 18px;
+}
+/* nav_bar */
+.nav_bar{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top:0;
+  left:0;
+  right:0;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+}
+.logo img{
+  height: 14px;
+}
+.main-nav li{
+  margin-right: 30px;
+}
+.main-nav li a{
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+.main-nav li a:hover{
+  text-decoration: none;
+}
+.secondary-nav{
+  margin-left:20px;
+}
+.secondary-nav .lang{
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+  line-height: normal;
+  color: #000;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .prova_banner_col{
   height: 800px;
   background-color: #00ff07;
@@ -72,7 +142,7 @@ background-color: #bbbb80;
 }
 .prova_footer2_col2{
 height: 100px;
-background-color: ##7403ff;
+background-color: #7403ff;
 }
 .prova_footer2_col3{
 height: 100px;
