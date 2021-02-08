@@ -8,9 +8,20 @@ body{
 .bg_grey{
  background-color: #fafafa;
 }
+.bg_blue{
+  background-color: #59cbf5;
+}
+.bg_yellow{
+  background-color:#fed234;
+}
 .container_small{
   max-width: 800px;
   margin: auto;
+}
+.clearfix{
+  content: "";
+  display: block;
+  clear: both;
 }
 /* tipo */
 h1{
@@ -27,6 +38,11 @@ p{
 h3{
   font-weight: bold;
   font-size: 20px;
+}
+h5{
+  font-weight: 600;
+  font-size: 45px;
+  margin: 30px 0;
 }
 /* buttons */
 .btn:hover{
@@ -92,8 +108,10 @@ h3{
 }
 /* main */
 section{
+  margin: 120px 0;
   padding: 30px 0;
 }
+
   /* section main products */
 .product{
   padding: 80px 20px 30px 20px;
@@ -119,7 +137,7 @@ section{
 .product a i{
   font-size: 15px;
 }
-  /* section old man */
+  /* section carousel*/
 .section_background{
   position: absolute;
   background-image: url("../img/banner.jpg");
@@ -152,38 +170,95 @@ section{
   vertical-align: bottom;
   padding-left: 60px;
 }
-#old-man p{
+#carousel p{
   font-size: 16px;
 }
 
-
-
-
-
-
-.prova_sc3_col1{
-  height: 150px;
-  background-color: #000000;
+  /* section info */
+.info_box{
+  padding: 30px 0;
+  color: #fff;
+  margin-top: 30px;
 }
-.prova_sc3_col2{
-  height: 200px;
-  background-color: #370139;
+.info_box_photo{
+  width: 100%;
 }
-.prova_sc3_col3{
-  height: 200px;
-  background-color: #610265;
+.box_info_logo{
+  width: 60%;
 }
-.prova_sc3_col4{
-  height: 150px;
-  background-color: #97029c;
+.large-box .product_details,
+.large-box .info_box_photo{
+  width: 50%;
+  float: right;
 }
-.prova_sc3_col5{
-  height: 200px;
-  background-color: #bd03c4;
+.head_box .product_details{
+  text-align: left;
+  padding-right: 50px;
 }
-.prova_sc3_col6{
-  height: 200px;
-  background-color: #f604ff;
+.info_box_photo{
+  text-align: center;
+}
+.head_box a,
+.head_box h5,
+.head_box p{
+  color: #000;
+}
+.large-box a{
+  font-size: 20px;
+}
+.large-box p{
+  margin: 30px 0;
+}
+.short_box h5{
+  padding: 0 40px;
+}
+.short_box img{
+  max-width: 100%;
+}
+.bg_yellow img{
+  padding-top: 30px;
+}
+.short_box{
+  min-height: 650px;
+}
+.large-box{
+  min-height: 500px;
+}
+.smart_mobility{
+  background-image: url("../img/scooter-banner.jpg");
+}
+.smart_mobility .product_details{
+  padding: 20px 60px;
+}
+.smart_mobility a{
+ color: #fff;
+}
+.box_app{
+  background-image: linear-gradient(rgb(65, 86, 106), rgb(37, 47, 56));
+  position: relative;
+}
+.box_app img{
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 21%;
+}
+.box_app a{
+  font-size: 20px;
+  color: #fff;
+}
+.box_app a .ios{
+  margin-right: 20px;
+}
+.box_cities{
+  background-image: url(../img/city.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box_cities a{
+  font-size: 20px;
+  color: #fff;
 }
 .prova_footer1_col1{
   height: 100px;
@@ -235,27 +310,40 @@ background-color: #fcff05;
   .product{
     margin-bottom: 30px;
   }
-  #old-man .box-1{
+  #carousel .box-1{
     padding-left: 40px;
+  }
+  .large-box .product_details,
+  .large-box .info_box_photo{
+    width: 100%;
+  }
+  .head-box .product_details{
+    padding-left: 30px;
+  }
+  .smart_mobility{
+    background-position: right;
+  }
+  .smart_mobility .product_details{
+    padding: 50px 100px;
   }
 }
 @media screen and (max-width: 768px){
   h1{
     font-size: 60px;
   }
-  #old-man .box-1,
-  #old-man .box-3{
+  #carousel .box-1,
+  #carousel .box-3{
     width: 100%;
+    padding-left: 40px;
   }
-  #old-man .box-1{
+  #carousel .box-1{
     right: auto;
-    padding-left: 60px;
   }
-  #old-man .box-2{
+  #carousel .box-2{
     width: 100%;
     left: auto;
   }
-  #old-man .box-2 img{
+  #carousel .box-2 img{
     width: 50%;
     margin: 50px 0;
   }
