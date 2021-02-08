@@ -2,6 +2,11 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+/* tipo */
+h1{
+  font-size: 100px;
+  font-weight: bold;
+}
 /* buttons */
 .btn:hover{
   color: #fff;
