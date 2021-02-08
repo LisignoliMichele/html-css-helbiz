@@ -57,8 +57,13 @@ body{
   color: #000;
   font-size: 12px;
 }
-
-
+/* banner */
+.banner{
+  padding: 150px 0;
+}
+.banner img{
+  width: 100%;
+}
 
 
 
