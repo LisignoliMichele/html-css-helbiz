@@ -1,1 +1,88 @@
-
+.prova_nav-bar-col{
+  height:70px;
+  background-color: #ff00fa;
+}
+.prova_banner_col{
+  height: 800px;
+  background-color: #00ff07;
+}
+.prova_sc1_col1{
+  height:200px;
+  background-color: #ff9107;
+}
+.prova_sc1_col2{
+  height:200px;
+  background-color: #ff9183;
+}
+.prova_sc1_col3 {
+  height:200px;
+  background-color: #ff91ff;
+}
+#section_2{
+  height: 800px;
+  background-color: #0000fa;
+}
+.prova_sc3_col1{
+  height: 150px;
+  background-color: #000000;
+}
+.prova_sc3_col2{
+  height: 200px;
+  background-color: #370139;
+}
+.prova_sc3_col3{
+  height: 200px;
+  background-color: #610265;
+}
+.prova_sc3_col4{
+  height: 150px;
+  background-color: #97029c;
+}
+.prova_sc3_col5{
+  height: 200px;
+  background-color: #bd03c4;
+}
+.prova_sc3_col6{
+  height: 200px;
+  background-color: #f604ff;
+}
+.prova_footer1_col1{
+  height: 100px;
+  background-color: #00ff00;
+}
+.prova_footer1_col2{
+height: 100px;
+background-color: #8ff296;
+}
+.prova_footer1_col3{
+height: 100px;
+background-color: #8ff2f1;
+}
+.prova_footer1_col4{
+height: 100px;
+background-color: #bbbbf1;
+}
+.prova_footer1_col5{
+height: 100px;
+background-color: #bbbb80;
+}
+.prova_footer2_col1{
+  height: 100px;
+  background-color: #ff0000;
+}
+.prova_footer2_col2{
+height: 100px;
+background-color: ##7403ff;
+}
+.prova_footer2_col3{
+height: 100px;
+background-color: #00d8ff;
+}
+.prova_footer2_col4{
+height: 100px;
+background-color: #04ff3f;
+}
+.prova_footer2_col5{
+height: 100px;
+background-color: #fcff05;
+}
