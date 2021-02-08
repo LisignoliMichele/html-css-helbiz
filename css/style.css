@@ -2,10 +2,19 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+.list-inline{
+  margin-bottom: 0px;
+}
+.bg_grey{
+ background-color: #fafafa;
+}
 /* tipo */
 h1{
   font-size: 100px;
   font-weight: bold;
+}
+p{
+  font-size: 20px;
 }
 /* buttons */
 .btn:hover{
@@ -69,35 +78,42 @@ h1{
 .banner img{
   width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.prova_banner_col{
-  height: 800px;
-  background-color: #00ff07;
+/* main */
+section{
+  padding: 30px 0;
 }
-.prova_sc1_col1{
-  height:200px;
-  background-color: #ff9107;
+  /* section main products */
+.product{
+  padding: 80px 20px 30px 20px;
 }
-.prova_sc1_col2{
-  height:200px;
-  background-color: #ff9183;
+.product_logo{
+  height: 22px;
 }
-.prova_sc1_col3 {
-  height:200px;
-  background-color: #ff91ff;
+.product_img{
+  max-height: 280px;
 }
+.product a{
+  display: block;
+  font-size: 22px;
+}
+.product p,
+.product a,
+.product_logo {
+  margin-bottom: 25px;
+}
+.product_logo{
+  width: 100%;
+}
+.product a i{
+  font-size: 15px;
+}
+
+
+
+
+
+
+
 #section_2{
   height: 800px;
   background-color: #0000fa;
