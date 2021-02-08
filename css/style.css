@@ -8,12 +8,24 @@ body{
 .bg_grey{
  background-color: #fafafa;
 }
+.container_small{
+  max-width: 800px;
+  margin: auto;
+}
 /* tipo */
 h1{
   font-size: 100px;
   font-weight: bold;
 }
+h2{
+  font-size: 30px;
+  font-weight: bold;
+}
 p{
+  font-size: 20px;
+}
+h3{
+  font-weight: bold;
   font-size: 20px;
 }
 /* buttons */
@@ -107,17 +119,48 @@ section{
 .product a i{
   font-size: 15px;
 }
-
-
-
-
-
-
-
-#section_2{
-  height: 800px;
-  background-color: #0000fa;
+  /* section old man */
+.section_background{
+  position: absolute;
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%
 }
+.boxes{
+  padding-top: 200px;
+}
+.box{
+  display: inline-block;
+  width: calc((100% / 3) - 4px);
+  position: relative;
+}
+.box-2{
+  left: calc(100% / 3);
+}
+.box-1{
+  right:calc(100% / 3);
+  vertical-align: bottom;
+  padding-right: 60px;
+}
+.box-2 img{
+  width: 100%;
+  vertical-align: baseline;
+}
+.box-3{
+  vertical-align: bottom;
+  padding-left: 60px;
+}
+#old-man p{
+  font-size: 16px;
+}
+
+
+
+
+
+
 .prova_sc3_col1{
   height: 150px;
   background-color: #000000;
@@ -189,9 +232,31 @@ background-color: #fcff05;
   .banner{
     padding: 100px 0;
   }
+  .product{
+    margin-bottom: 30px;
+  }
+  #old-man .box-1{
+    padding-left: 40px;
+  }
 }
 @media screen and (max-width: 768px){
   h1{
     font-size: 60px;
+  }
+  #old-man .box-1,
+  #old-man .box-3{
+    width: 100%;
+  }
+  #old-man .box-1{
+    right: auto;
+    padding-left: 60px;
+  }
+  #old-man .box-2{
+    width: 100%;
+    left: auto;
+  }
+  #old-man .box-2 img{
+    width: 50%;
+    margin: 50px 0;
   }
 }
